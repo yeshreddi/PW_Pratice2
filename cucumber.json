@@ -1,7 +1,7 @@
 {
   "default": {
     "paths": [
-      "test/features/*.feature"
+      "tests/features/*.feature"
     ],
     "require": [
       "tests/steps/*.js",
