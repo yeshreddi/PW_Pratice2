@@ -1,0 +1,15 @@
+{
+  "default": {
+    "paths": [
+      "test/features/*.feature"
+    ],
+    "require": [
+      "tests/steps/*.js",
+      "support/**/*.js"
+    ],
+    "format": [
+      "progress",
+      "json:reports/cucumber-report.json"
+    ]
+  }
+}
