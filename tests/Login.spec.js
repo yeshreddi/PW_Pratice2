@@ -8,7 +8,7 @@ await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/lo
 
 await page.getByPlaceholder('Username').fill('Admin')
 
-await page.waitForTimeout(50000)
+await page.waitForTimeout(3000)
 
 await page.getByPlaceholder('Password').fill('admin123')
 
